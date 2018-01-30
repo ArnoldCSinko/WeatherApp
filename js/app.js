@@ -2,7 +2,7 @@
     Written By: Arnold C. Sinko
     Updated: 4/20/17
 */
-var appID = "&appid=82779f2d14e57a0b79d137998db504ca";
+var appID = /* Omitted */;
 var apiURL = "http://api.openweathermap.org/data/2.5/weather?q=";
 
 function Weather(country, city, tempK, tempF, tempC, condition, icon) {
