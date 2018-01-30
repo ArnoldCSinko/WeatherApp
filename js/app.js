@@ -1,6 +1,6 @@
 /*
     Written By: Arnold C. Sinko
-    Updated: 4/20/17
+    Updated: 1/29/18
 */
 const appID = /* Omitted */;
 const apiURL = "http://api.openweathermap.org/data/2.5/weather?q=";
