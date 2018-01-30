@@ -2,8 +2,8 @@
     Written By: Arnold C. Sinko
     Updated: 4/20/17
 */
-var appID = /* Omitted */;
-var apiURL = "http://api.openweathermap.org/data/2.5/weather?q=";
+const appID = /* Omitted */;
+const apiURL = "http://api.openweathermap.org/data/2.5/weather?q=";
 
 function Weather(country, city, tempK, tempF, tempC, condition, icon) {
     this.country = country;
