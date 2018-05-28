@@ -76,7 +76,7 @@ function makeWeatherObject(data) {
 // Make AJAX request for JSON weather data
 // Then pass the weather object to the function displayWeather(WeatherObject).
 function getWeather(location) {
-    const appID = "&appid=82779f2d14e57a0b79d137998db504ca";
+    const appID = ''; 
     let apiURL = "http://api.openweathermap.org/data/2.5/weather?q=";
     apiURL += location + appID;
     $.getJSON(apiURL, function (data) {
